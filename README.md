@@ -14,7 +14,7 @@ This standard describes a set of key value stores that describe a digital asset 
 
 ## Abstract
 
-This standard, defines a set of key value stores that are required to create digital assets in the IDEP Network.
+The Galactic-Standard-1 (GS1), defines a set of key value stores that are required to create digital assets in the IDEP Network.
 
 ## Motivation
 
