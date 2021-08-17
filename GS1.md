@@ -49,7 +49,7 @@ The linked JSON file should have the following format:
 {
     "description": "string",
     "name": "string", // optional
-    "attributes": ["string1", "string"2", ...],
+    "attributes": ["string1", "string2", ...],
     "images": [ // multiple images in different sizes, related to the Item, image 0, should be the main image
         [{
                 "width": Number,
