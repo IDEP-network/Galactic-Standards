@@ -48,7 +48,7 @@ The linked JSON file should have the following format:
 ```js
 {
     "description": "string",
-    "name": "string", //OPTIONAL
+    "name": "string", // optional
     "attributes": ["string1, "string2", ...],
     "images": [ // multiple images in different sizes, related to the Item, image 0, should be the main image
         [{
@@ -61,7 +61,7 @@ The linked JSON file should have the following format:
         [...]
     ],
     "assets": [{
-            "title": "string", // (optional)
+            "title": "string", // optional
             "hashFunction": "keccak256",
             "hash": "string",
             "source": "string",
