@@ -66,8 +66,8 @@ The linked JSON file should have the following format:
             "hash": "string",
             "source": "string",
             "type": "gltf",
-        },
-        ...
+           },
+        [...]
     ],
     "url": [{
                 "title": "string",
