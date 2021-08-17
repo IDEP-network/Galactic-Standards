@@ -67,13 +67,13 @@ The linked JSON file should have the following format:
             "source": "string",
             "type": "gltf",
            },
-        [...]
-    ],
+           [...]
+           ],
     "url": [{
                 "title": "string",
                 "url": "string"
             },
-            ...
+            [...]
             ],
 }
 ```
