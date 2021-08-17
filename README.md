@@ -1,6 +1,6 @@
 # Galactic Standards
 
-Galactic Standards (GSs) describe standards for the IDEP Network Blockchain, including core protocol specifications, client APIs, and smart contract standards.
+Galactic Standards (GSs) describe standards for the IDEP Network Blockchain, including core protocol specifications, client APIs, and related smart contract standards.
 
 A browsable version of all current and draft GSs can be found on the official GS folder
 
