@@ -32,13 +32,12 @@ Every contract that supports the Galactic-Standard-1 SHOULD implement:
                     "from": "idep1mc3t0cye333achqg6enw2nkfmftxja4x3mt0zh",
                     "chain_id": "Test-Denali"
                 },
-    "id": 'String',
-    "name": 'String',
-    "transferable": 'bool',
+    "sn": Number,
+    "name": 'string',
+    "transferable": 'bool', // (true = 1 , false = 0)
     "owner": "idep1mc3t0cye333achqg6enw2nkfmftxja4x3mt0zh",
     "recipient": "idep1mc3t0cye333achqg6enw2nkfmftxja4x3mt0zh",
-    "denom_id": "kingsword99",
-    "uri": "URI",
+    "denom_id": mixed,
     "metadata": "URI",
 }
 ```
@@ -48,14 +47,14 @@ The description of the asset.
 The linked JSON file should have the following format:
 ```js
 {
-    "description": 'string',
-    "name": 'string',
-    "attributes": ['string1', 'string2', ...],
+    "description": "string",
+    "name": "string", //OPTIONAL
+    "attributes": ["string1, "string2", ...],
     "images": [ // multiple images in different sizes, related to the Item, image 0, should be the main image
         [{
                 "width": Number,
                 "height": Number,
-                "url": 'string'
+                "url": "string"
             },
             ...
         ],
@@ -63,11 +62,18 @@ The linked JSON file should have the following format:
     ],
     "assets": [{
             "title": "string", // (optional)
+            "hashFunction": "keccak256",
+            "hash": "string",
+            "source": "string",
             "type": "gltf",
-            "source": "URI",
-            "hash": "keccak256(file)"
         },
         ...
-    ]
+    ],
+    "url": [{
+                "title": "string",
+                "url": "string"
+            },
+            ...
+            ],
 }
 ```
