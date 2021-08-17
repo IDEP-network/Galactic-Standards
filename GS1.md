@@ -33,10 +33,10 @@ Every contract that supports the Galactic-Standard-1 SHOULD implement:
                     "chain_id": "Test-Denali"
                 },
     "sn": Number,
-    "name": 'string',
-    "transferable": 'bool', // (true = 1 , false = 0)
-    "owner": "idep1mc3t0cye333achqg6enw2nkfmftxja4x3mt0zh",
-    "recipient": "idep1mc3t0cye333achqg6enw2nkfmftxja4x3mt0zh",
+    "name": "string",
+    "transferable": bool, // (true = 1 , false = 0)
+    "owner": "idep1mc3t0cye333achqg6enw2nkfmftxja4x3mt0zh", // wallet address
+    "recipient": "idep1mc3t0cye333achqg6enw2nkfmftxja4x3mt0zh", // wallet address
     "denom_id": mixed,
     "metadata": "URI",
 }
