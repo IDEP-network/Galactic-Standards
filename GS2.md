@@ -31,12 +31,11 @@ Every contract that supports the Galactic-Standard-2 SHOULD implement:
                     "from": "idep1mc3t0cye333achqg6enw2nkfmftxja4x3mt0zh",
                     "chain_id": "Test-Denali"
                 },
-    "id": mixed,
+    "id": "<unique-id>",
     "name": "string",
     "owner": "idep1mc3t0cye333achqg6enw2nkfmftxja4x3mt0zh", // wallet address
     "recipient": "idep1mc3t0cye333achqg6enw2nkfmftxja4x3mt0zh", // wallet address
-    "denom_id": mixed,
-    "metadata": "URI",
+    "schema": "<metadata>",
 }
 ```
 
