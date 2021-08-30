@@ -24,3 +24,8 @@ When you believe your GS is mature and ready to progress past the draft phase, y
 * **Final (non-Core)** - an GS that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.
 * **Final (Core)** - an GS that the Core Devs have decided to implement and release in a future hard fork or has already been released in a hard fork. 
 * **Deferred** - an GS that is not being considered for immediate adoption. May be reconsidered in the future for a subsequent hard fork.
+
+
+## ❓ More Questions?
+
+Chat with the team on the [IDEP Discord server](https://discord.gg/Jrarctk4hG)
